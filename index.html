@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IsItLuv - Privacy Policy</title>
+    <style>
+        :root {
+            --primary: #0071e3;
+            --text: #1d1d1f;
+            --text-secondary: #86868b;
+            --bg: #f5f5f7;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            color: var(--text);
+            border-bottom: 1px solid #e5e5ea;
+            padding-bottom: 8px;
+        }
+        p, li {
+            font-size: 1.05rem;
+            color: #333336;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background-color: #f2f7fd;
+            border-left: 4px solid var(--primary);
+            padding: 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 25px 0;
+        }
+        .highlight-box p {
+            margin: 0;
+            font-weight: 500;
+        }
+        strong {
+            color: #000;
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        @media (max-width: 480px) {
+            body { padding: 20px 10px; }
+            .container { padding: 25px 20px; border-radius: 16px; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <div class="subtitle">Last updated: April 28, 2026</div>
+
+    <div class="highlight-box">
+        <h2>In short</h2>
+        <p>IsItLuv is built around a simple promise: your conversations are <strong>not stored</strong>. They are sent to our analysis service, scored, and immediately discarded. We do not build profiles of you, we do not sell your data, and we do not log message contents.</p>
+    </div>
+
+    <h2>What we process</h2>
+    <p>When you analyze a chat, the text you submit is sent over an encrypted connection (HTTPS) to our analysis API and then forwarded to Google's Gemini AI service for natural-language analysis. The AI returns a score and commentary, which we send back to your device. The conversation text is held in memory only for the duration of the request and is <strong>not written to any database, file, or log</strong> on our servers.</p>
+
+    <h2>Information we do collect</h2>
+    <ul>
+        <li><strong>Anonymous request metadata:</strong> Timestamp, response status, and error codes used for keeping the service running. No conversational content is included.</li>
+        <li><strong>Crash and performance data:</strong> Technical logs from the iOS app (Apple-provided, anonymized) if you opt-in via iOS settings.</li>
+        <li><strong>Advertising identifiers:</strong> If you consent to tracking via the App Tracking Transparency prompt. This is used by ad networks to show relevant ads. You can decline this and the app will still function normally.</li>
+    </ul>
+
+    <h2>Third-party services</h2>
+    <ul>
+        <li><strong>Google Gemini API</strong> — Performs the AI analysis. Google may retain prompts for up to 24 hours for abuse monitoring per their API terms. We do not control this retention, but Google states the data is not used to train their models on the paid tier.</li>
+        <li><strong>Vercel</strong> — Hosts our API. Standard server logs (IP, path, status code) are retained briefly for security and system stability.</li>
+        <li><strong>Google AdMob</strong> (iOS app only) — Serves advertising. Please see Google's privacy policy for more details.</li>
+    </ul>
+
+    <h2>Third-party content & Responsibility</h2>
+    <p>You are responsible for the messages you upload. By using IsItLuv, you confirm that you have the right to analyze the content you submit and that you will not upload conversations belonging to others without their explicit consent.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>IsItLuv is rated 17+ and is not intended for anyone under the age of 17. We do not knowingly collect or solicit data from children.</p>
+
+    <h2>Your rights</h2>
+    <p>Because we don't store your conversation data, there is nothing to export or delete on our side. For ad-related data, you can reset or manage your Advertising Identifier at any time in your iOS Settings → Privacy → Tracking.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or feedback? Reach out to us at: <a href="mailto:hello@isitluv.app">hello@isitluv.app</a></p>
+</div>
+
+<footer>
+    <p>&copy; 2026 IsItLuv. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
